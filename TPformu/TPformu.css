@@ -1,0 +1,43 @@
+.connex {
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+label {
+    margin-left: 30px;
+}
+
+span {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    background-color: grey;
+    padding-bottom: 5px;
+    
+
+}
+
+.btn:hover {
+       color:black;
+}
+
+#checkbox {
+    margin-left: 30px;
+}
+
+.button {
+    text-align: center;
+}
+
+.test {
+    margin-bottom: 10px;
+}
