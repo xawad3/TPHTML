@@ -75,7 +75,7 @@ span {
 
     }
 
-span{
+.ancre{
         margin-bottom: 5px;
         background-color:#EF233C;
         border: none;
@@ -84,6 +84,6 @@ span{
         
 }
 
-span a:visited {
+.ancre a:visited {
     color: black ;
 }
