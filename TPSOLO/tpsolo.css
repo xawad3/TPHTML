@@ -74,3 +74,16 @@ span {
     color: red;
 
     }
+
+span{
+        margin-bottom: 5px;
+        background-color:#EF233C;
+        border: none;
+        color: black;
+        margin: 2px 1px;
+        
+}
+
+span a:visited {
+    color: black ;
+}
