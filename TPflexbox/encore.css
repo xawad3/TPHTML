@@ -1,0 +1,65 @@
+html {
+    background-color: paleturquoise;
+}
+
+.container {
+    display:flex;
+    gap: 10px;
+
+    
+    
+   
+}
+
+
+
+.box1 {
+    /* width: 100px;
+    height: auto; */
+    background-color: teal;
+    border: solid 2px black;
+    justify-content: center;
+    font-size: 56px;
+
+
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    
+}
+
+/* .box2 {
+    background-color: tan;
+    border: solid 2px black;
+
+
+}
+
+.box3 {
+    background-color: thistle;
+    border: solid 2px black;
+
+}
+
+.box4 {
+    background-color: yellowgreen;
+    border: solid 2px black;
+
+
+}
+
+.box5 {
+    background-color: tomato;
+    border: solid 2px black;
+
+
+}
+
+li {
+    display: inline-block;
+} */
