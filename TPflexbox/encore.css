@@ -44,8 +44,14 @@ a:link {
     text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 .box1 :hover {
     background-color:palevioletred;
+=======
+a:hover {
+    display: flex;
+    flex-direction: column-reverse;
+>>>>>>> Stashed changes
     
 }
 
