@@ -25,11 +25,27 @@ html {
 
 }
 
+.menu {    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu1 {
+    background-color: teal;
+    border: solid 2px black;
+    justify-content: center;
+    font-size: 56px;
+}
+
+
 a:link {
     text-decoration: none;
 }
 
-a:hover {
+.box1 :hover {
+    background-color:palevioletred;
     
 }
 
