@@ -138,6 +138,9 @@ a:link {
     aside {
         grid-row: 2/3; 
         grid-column: 1/4;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: 100px;
     }
 
 
