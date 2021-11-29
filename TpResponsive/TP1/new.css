@@ -71,7 +71,13 @@ aside {
     border: 1px solid #F2F7F2;
     margin-top: 20px;
     margin-right: 20px;
+    height: 1250px;
     
+}
+
+aside img {
+    height: 200px;
+    width: 200px;
 }
 
 footer { 
@@ -105,7 +111,13 @@ footer {
 
 }
 
+.contain :nth-child(even) {
+    flex-direction: row-reverse;
+  }
 
+  .contain :nth-child(odd) {
+    flex-direction: row;
+  }
 
 
 a:link {
@@ -146,7 +158,7 @@ a:link {
     .OK {
         display: grid;
         grid-template-columns: 1fr 6fr 1fr;
-        grid-template-rows: 0.1fr 1fr 0.1fr ;
+        grid-template-rows: 0.5fr 15fr 5fr 0.5fr ;
         grid-gap:20px;
         justify-items: center;
     }
@@ -157,13 +169,13 @@ a:link {
         grid-row: 1 / 2;
         background-color:#8E5572;
         padding: 20px;
-        height: auto;
+        height: 35px;
         border-radius: 30px;
         border: 1px solid #F2F7F2;
         margin-top: 20px;
         margin-left:20px;
         
-        margin-bottom:50px ;
+       
         
     }
 
@@ -183,11 +195,19 @@ a:link {
     aside {
         grid-row: 3; 
         grid-column: 2/3;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        grid-auto-rows: 100px;
-        height: auto;
+        height: min-content;
+        
+
     }
+    
+    .onteste {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+        
+    }
+
 
     footer { 
         grid-column: 1 /4;
@@ -195,7 +215,7 @@ a:link {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap:50px;
-        justify-items: center;
+        
 
     }
     .box1 {
