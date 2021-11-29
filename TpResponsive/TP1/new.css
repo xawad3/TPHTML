@@ -108,7 +108,7 @@ a:link {
     text-decoration: none;
 }
 
-@media only screen and (min-width:570px) {
+@media only screen and (max-width:1000px) {
 
     nav {
 
@@ -121,8 +121,14 @@ a:link {
         margin-left:20px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        justify-items: center;
+        justify-items: center; 
     }
+
+
+.article { 
+    display: flex; 
+    flex-direction: column;
+}
 
 
 }
