@@ -93,6 +93,8 @@ footer {
     font-size: 25px;
 }
 
+
+
 .contain {
     background-color: #8E5572;
     padding: 20px;
@@ -104,31 +106,44 @@ footer {
 }
 
 
+
+
 a:link {
     text-decoration: none;
 }
 
 @media only screen and (max-width:1000px) {
-
+    
     nav {
-
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
         background-color:#8E5572;
         padding: 20px;
-        height: 170px;
+        height: 50px;
         border-radius: 30px;
         border: 1px solid #F2F7F2;
         margin-top: 20px;
         margin-left:20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        justify-items: center; 
+        
+        margin-bottom:50px ;
+        
     }
 
 
-.article { 
-    display: flex; 
-    flex-direction: column;
-}
+    .article { 
+        display: flex; 
+        flex-direction: column;
+    }
+
+    aside {
+        grid-row: 2/3; 
+        grid-column: 1/4;
+    }
+
+
+    .box1 {
+        display: inline-block;
+    }
 
 
 }
